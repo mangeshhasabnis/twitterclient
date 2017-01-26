@@ -1,0 +1,14 @@
+{
+  "name": "twitterclient",
+  "version": "1.0.0",
+  "description": "This is a cross-platform twitter client.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mangesh Hasabnis",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.15"
+  }
+}
