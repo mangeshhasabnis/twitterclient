@@ -4,11 +4,31 @@
   "description": "This is a cross-platform twitter client.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
   },
   "author": "Mangesh Hasabnis",
   "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "@types/node": "^7.0.4",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  },
   "devDependencies": {
-    "electron": "^1.4.15"
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.1.0",
+    "electron": "^1.4.15",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.4"
   }
 }
