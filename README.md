@@ -9,5 +9,5 @@ $ ./node_modules/.bin/electron .
 
 ## Windows
 
-$ .\node_modules\.bin\electron .
+$ .\node_modules\\.bin\electron .
 
