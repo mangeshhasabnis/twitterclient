@@ -11,5 +11,5 @@ $ ./node_modules/.bin/electron .
 
 $ .\node_modules\\.bin\electron .
 
-Now has electron-reload.
+This branch is created to remove SystemJS and use Wepack instead.
 
